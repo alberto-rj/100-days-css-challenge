@@ -1,6 +1,6 @@
 ﻿# 100 DAYS CSS CHALLENGE
 
-This collection of challenges was made with love by [Matthias Martin](https://www.stichwort-m.de/) and you can find it on [100 DAYS CSS CHALLENGE](https://100dayscss.com) website.
+This collection of challenges was made with love by [Matthias Martin](https://www.stichwort-m.de) and you can find it on [100 DAYS CSS CHALLENGE](https://100dayscss.com) website.
 
 ## My solution
 
