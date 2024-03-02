@@ -8,7 +8,7 @@ You can see all my solution of the challenge on:
 
 - **Day 001 - 100 Days CSS Challenge**
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-001-100-days-css-challenge)
-  - [Codepen](https://codepen.io/albertorauljose/pen/vYMENZr)
+  - [Codepen](https://codepen.io/albertorauljose/pen/YzMPQXE)
 
 - **Day 002 - Menu Icon**
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-002-menu-icon)
