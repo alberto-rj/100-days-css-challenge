@@ -7,7 +7,7 @@ This challenge was made with love by [Matthias Martin](https://www.stichwort-m.d
 
 You can see my solution of this challenge on:
 
-- [Codepen](https://codepen.io/albertorauljose/pen/vYMENZr)
+- [Codepen](https://codepen.io/albertorauljose/pen/YzMPQXE)
 - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-001-100-days-css-challenge)
 
 ## Others solution
