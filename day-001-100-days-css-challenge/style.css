@@ -24,12 +24,12 @@ body {
 
 .square {
   background: linear-gradient(
-    90deg,
-    #4763ac,
-    #4b9abd
+    45deg,
+    blueviolet,
+    violet
   );
-  border-radius: 0.5rem;
-  box-shadow: 0 0 3px #00000091;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
   height: 400px;
   width: 400px;
 }

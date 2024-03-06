@@ -14,5 +14,6 @@ You can see the solution of this challenge on:
 
 Those are all my solutions currently:
 
+- [This repository](../)
 - [Codepen](https://codepen.io/albertorauljose/pens/public)
 - [My progress](https://100dayscss.com/progress/albertorauljose)
