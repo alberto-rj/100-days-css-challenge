@@ -1,10 +1,11 @@
 ﻿# 100 DAYS CSS CHALLENGE
 
-This collection of challenges was made with love by [Matthias Martin](https://www.stichwort-m.de) and you can find it on [100 DAYS CSS CHALLENGE](https://100dayscss.com) website.
+This collection of challenges was made with love by [Matthias Martin](https://www.stichwort-m.de)
+and you can find it on his website ([100 DAYS CSS](https://100dayscss.com)).
 
-## My solution
+## All my solutions
 
-You can see all my solution of the challenge on:
+Those are all my solutions currently:
 
 - **Day 001 - 100 Days CSS Challenge**
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-001-100-days-css-challenge)
@@ -14,9 +15,11 @@ You can see all my solution of the challenge on:
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-002-menu-icon)
   - [Codepen](https://codepen.io/albertorauljose/pen/poBvgBL)
 
-## Others solution
+- **Day 003 - The Pyramide**
+  - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-003-the-pyramide)
+  - [Codepen](#)
 
-You can see my others solutions of the challenge on:
+### See also
 
 - [Codepen](https://codepen.io/albertorauljose/pens/public)
 - [My progress](https://100dayscss.com/progress/albertorauljose)
