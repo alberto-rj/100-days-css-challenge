@@ -7,7 +7,7 @@ and you can find it on his website ([100 DAYS CSS](https://100dayscss.com/days/3
 
 You can see the solution of this challenge on:
 
-- [Codepen](https://codepen.io/albertorauljose/pen/JjVXVdG)
+- [Codepen](https://codepen.io/albertorauljose/pen/MWRyRJM)
 - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-003-the-pyramide)
 
 ## See also
