@@ -17,7 +17,7 @@ Those are all my solutions currently:
 
 - **Day 003 - The Pyramide**
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-003-the-pyramide)
-  - [Codepen](#)
+  - [Codepen](https://codepen.io/albertorauljose/pen/JjVXVdG)
 
 ### See also
 
