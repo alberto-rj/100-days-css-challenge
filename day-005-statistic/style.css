@@ -1,0 +1,291 @@
+:root {
+  --clr-primary: blueviolet;
+  --clr-secondary: rgb(204, 64, 204);
+  --clr-light-gray: #f0f0f0;
+  --clr-gray: rgba(0, 0, 0, 0.65); 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--clr-light-gray);
+  color: var(--clr-gray);
+  font-family: 'Opens Sans', Helvetica, sans-serif;
+}
+
+.center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  background: linear-gradient(
+    0deg,
+    var(--clr-primary),
+    var(--clr-secondary)
+  );
+  border-radius: 0.25rem;
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  height: 25rem;
+  width: 25rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 6px 6px 12px 2px rgba(0, 0, 0, 0.25);
+  height: 220px;
+  width: 280px;
+}
+
+
+.header {
+  align-items: center;
+  background: var(--clr-primary);
+  border-radius: 0.25rem 0.25rem 0 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  position: relative;
+  width: 100%;
+}
+.big {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.small {
+  font-size: 11px;
+  font-weight: 400;
+}
+.title {
+  display: block;
+}
+.type {
+  display: block;
+  text-align: right;
+}
+
+
+.parameter {
+  font-size: 9px;
+  padding: 1rem;
+  text-align: right;
+}
+.parameter-1,
+.parameter-2 {
+  position: relative;
+}
+.parameter-2 {
+  margin-left: 2rem;
+}
+.parameter-1::before,
+.parameter-2::before {
+  border-radius: 3px;
+  content: '';
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -1.25rem;
+  width: 11px;
+}
+.parameter-1::before {
+  background: var(--clr-primary);
+}
+.parameter-2::before {
+  background: var(--clr-secondary);
+}
+
+
+.statistic {
+  position: relative;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  background: var(--clr-light-gray);
+  bottom: 0;
+  height: 1px;
+  left: 1rem;
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}
+
+.line-2 {
+  top: 40px;
+}
+
+.line-3 {
+  top: 80px;
+}
+
+.data svg {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.data svg polyline {
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.data-1 svg polyline {
+  stroke: var(--clr-primary);
+}
+
+.data-2 svg polyline {
+  stroke: var(--clr-secondary);
+}
+
+.data .points {
+  position: relative;
+}
+
+.data [class^="point-"] {
+  cursor: pointer;
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.data [class^="point-"] .tooltip {
+  border-radius: 0.125rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+  color: #fff;
+  height: 28px;
+  top: -2.25rem;
+  left: 50%;
+  line-height: 28px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  transform: translate(-50%, 16px);
+  transition: 
+    opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out;
+  width: 28px;
+  z-index: 10;
+}
+
+.data [class^="point-"]:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.data [class^="point-"] .tooltip::after {
+  bottom: -3px;
+  content: '';
+  display: block;
+  height: 6px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) rotate(45deg);
+  width: 6px;
+}
+
+.data-1 [class^="point-"],
+.data-1 .tooltip,
+.data-1 .tooltip::after {
+  background: var(--clr-primary);
+}
+
+.data-1 .point-1 {
+  top: 44px;
+  left: 18px;
+}
+.data-1 .point-2 {
+  top: 14px;
+  left: 61px;
+}
+.data-1 .point-3 {
+  top: 26px;
+  left: 100px;
+}
+.data-1 .point-4 {
+  top: 8px;
+  left: 142px;
+}
+.data-1 .point-5 {
+  top: 37px;
+  left: 178px;
+}
+.data-1 .point-6 {
+  top: 46px;
+  left: 213px;
+}
+.data-1 .point-7 {
+  top: 6px;
+  left: 253px;
+}
+
+.data-2 [class^="point-"],
+.data-2 .tooltip,
+.data-2 .tooltip::after {
+  background: var(--clr-secondary);
+}
+
+.data-2 .point-1 {
+  top: 57px;
+  left: 18px;
+}
+.data-2 .point-2 {
+  top: 47px;
+  left: 61px;
+}
+.data-2 .point-3 {
+  top: 61px;
+  left: 100px;
+}
+.data-2 .point-4 {
+  top: 47px;
+  left: 142px;
+}
+.data-2 .point-5 {
+  top: 62px;
+  left: 178px;
+}
+.data-2 .point-6 {
+  top: 67px;
+  left: 213px;
+}
+.data-2 .point-7 {
+  top: 57px;
+  left: 253px;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.day {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

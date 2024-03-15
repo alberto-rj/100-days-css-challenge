@@ -7,6 +7,10 @@ and you can find it on his website ([100 DAYS CSS](https://100dayscss.com)).
 
 Those are all my solutions currently:
 
+- [**Day 005 - Statistic**](/day-005-statistic)
+  - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-005-statistic)
+  - [Codepen](#)
+
 - [**Day 004 - Loading**](/day-004-loading)
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-004-loading)
   - [Codepen](#)
