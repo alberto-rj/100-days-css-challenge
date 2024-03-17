@@ -9,7 +9,7 @@ Those are all my solutions currently:
 
 - [**Day 005 - Statistic**](/day-005-statistic)
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-005-statistic)
-  - [Codepen](#)
+  - [Codepen](https://codepen.io/albertorauljose/pen/GRLNYZO)
 
 - [**Day 004 - Loading**](/day-004-loading)
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-004-loading)
