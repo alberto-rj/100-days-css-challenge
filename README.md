@@ -13,7 +13,7 @@ Those are all my solutions currently:
 
 - [**Day 004 - Loading**](/day-004-loading)
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-004-loading)
-  - [Codepen](#)
+  - [Codepen](https://codepen.io/albertorauljose/pen/mdgOzeB)
 
 - [**Day 003 - The Pyramide**](/day-002-menu-icon)
   - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-003-the-pyramide)
