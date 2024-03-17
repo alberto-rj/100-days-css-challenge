@@ -7,7 +7,7 @@ and you can find it on his website ([100 DAYS CSS](https://100dayscss.com/days/4
 
 You can see the solution of this challenge on:
 
-- [Codepen](#)
+- [Codepen](https://codepen.io/albertorauljose/pen/mdgOzeB)
 - [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-004-loading)
 
 ## See also
