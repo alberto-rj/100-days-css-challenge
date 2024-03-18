@@ -5,6 +5,9 @@
   --menu-width: 5rem;
   --menu-height: calc(3 * var(--menu-bar-height) + 2 * var(--menu-bar-space));
   --cubic-bezier-in: cubic-bezier(0.30, 1, 0.70, 1);
+  --clr-primary: #6f23b6;
+  --clr-bg: rgb(237, 227, 247);
+  --clr-shadow: rgba(0, 0, 0, 0.25);
 }
 
 *::before,
@@ -16,7 +19,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: var(--clr-bg);
   min-height: 100vh;
 }
 
@@ -27,9 +30,9 @@ body {
 }
 
 .frame {
-  background: #823dc2;
+  background: var(--clr-primary);
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 8px 4px var(--clr-shadow);
   height: 25rem;
   width: 25rem;
 }
@@ -49,7 +52,7 @@ body {
 .menu-bar {
   background-color: #fff;
   border-radius: 0.25rem;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 8px var(--clr-shadow);
   display: block;
   height: var(--menu-bar-height);
   width: 100%;

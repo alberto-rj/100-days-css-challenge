@@ -1,6 +1,6 @@
-# Day 004 - Loading | 100 Days CSS Challenge
+# Day 006 - Profile | 100 Days CSS Challenge
 
-This is a CSS challenge from [100 DAYS CSS](https://100dayscss.com/days/4) website.
+This is a CSS challenge from [100 DAYS CSS](https://100dayscss.com/days/6) website.
 
 ## My solution
 
@@ -8,8 +8,8 @@ This is a CSS challenge from [100 DAYS CSS](https://100dayscss.com/days/4) websi
 
 You can see the solution of this challenge on:
 
-- [Codepen](https://codepen.io/albertorauljose/pen/mdgOzeB)
-- [Live site](https://alberto-rj.github.io/100-days-css-challenge/day-004-loading)
+- [Codepen](#)
+- [Live site](https://alberto-rj.github.io/100-days-css-challenge/day-006-profile)
 
 ## See also
 

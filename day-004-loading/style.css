@@ -1,3 +1,10 @@
+:root {
+  --clr-primary: #6f23b6;
+  --clr-secondary: rgb(204, 64, 204);
+  --clr-bg: rgb(237, 227, 247);
+  --clr-shadow: rgba(0, 0, 0, 0.25);
+}
+
 *::before,
 *,
 *::after {
@@ -7,7 +14,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: var(--clr-bg);
 }
 
 .center {
@@ -20,11 +27,11 @@ body {
 .square {
   background: linear-gradient(
     45deg,
-    blueviolet,
-    violet
+    var(--clr-primary),
+    var(--clr-secondary)
   );
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 8px 4px var(--clr-shadow);
   height: 25rem;
   width: 25rem;
 }
@@ -33,7 +40,7 @@ body {
   animation: animate-circle 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 8px 2px var(--clr-shadow);
   height: 1.75rem;
   width: 1.75rem;
   z-index: 3;
@@ -57,12 +64,12 @@ body {
   0%,
   30%,
   70% {
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 4px 1px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(0);
   }
 
   100% {
-    box-shadow: 6px 6px 8px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 6px 6px 8px 2px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(1);
   }
 }
@@ -70,27 +77,27 @@ body {
 @keyframes animate-circle-md {
   0%,
   30% {
-    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 8px 1px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(0);
   }
 
   70%,
   100% {
-    box-shadow: 8px 6px 12px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 8px 6px 12px 2px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(1);
   }
 }
 
 @keyframes animate-circle-lg {
   0% {
-    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 8px 1px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(0);
   }
 
   30%,
   70%,
   100% {
-    box-shadow: 8px 6px 12px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 8px 6px 12px 2px var(--clr-shadow);
     transform: translate(-50%, -50%) scale(1);
   }
 }

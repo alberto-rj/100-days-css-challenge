@@ -1,14 +1,15 @@
 # Day 005 - Statistic | 100 Days CSS Challenge
 
-This challenge was made with love by [Matthias Martin](https://www.stichwort-m.de)
-and you can find it on his website ([100 DAYS CSS](https://100dayscss.com/days/5)).
+This is a CSS challenge from [100 DAYS CSS](https://100dayscss.com/days/5) website.
 
 ## My solution
+
+![Screenshot of the project](screenshot.png)
 
 You can see the solution of this challenge on:
 
 - [Codepen](https://codepen.io/albertorauljose/pen/GRLNYZO)
-- [Live demo](https://alberto-rj.github.io/100-days-css-challenge/day-005-statistic)
+- [Live site](https://alberto-rj.github.io/100-days-css-challenge/day-005-statistic)
 
 ## See also
 

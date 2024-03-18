@@ -1,3 +1,10 @@
+:root {
+  --clr-primary: #6f23b6;
+  --clr-secondary: rgb(204, 64, 204);
+  --clr-bg: rgb(237, 227, 247);
+  --clr-shadow: rgba(0, 0, 0, 0.25);
+}
+
 *::before,
 *,
 *::after {
@@ -7,7 +14,7 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: var(--clr-bg);
 }
 
 .center {
@@ -25,11 +32,11 @@ body {
 .square {
   background: linear-gradient(
     45deg,
-    blueviolet,
-    violet
+    var(--clr-primary),
+    var(--clr-secondary)
   );
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 8px 4px var(--clr-shadow);
   height: 400px;
   width: 400px;
 }
@@ -42,18 +49,20 @@ body {
 
 @keyframes algarism {
   from {
-    top: -4.5rem;
+    opacity: 0;
+    transform: translateY(-4rem);
   }
 
   to {
-    top: 0;
+    opacity: 1;
+    transform: none;
   }
 }
 
 .algarism-first-top {
   background-color: #fff;
   border-radius: 0.25rem;
-  box-shadow: 0px 3px 14px 5px #1f1d1d38;
+  box-shadow: 0px 3px 14px 5px var(--clr-shadow);
   height: 45px;
   left: 4px;
   position: relative;
@@ -65,7 +74,7 @@ body {
 .algarism-first {
   background-color: #fff;
   border-radius: 0.25rem;
-  box-shadow: 0px 0 8px 4px #1f1d1d38;
+  box-shadow: 0px 0 8px 4px var(--clr-shadow);
   height: 100px;
   position: relative;
   width: 24px;
@@ -76,7 +85,7 @@ body {
 .algarism-third {
   border: 24px solid #fff;
   border-radius: 50%;
-  box-shadow: 3px 0 3px #1f1d1d38;
+  box-shadow: 3px 0 3px var(--clr-shadow);
   height: 100px;
   position: relative;
   width: 100px;
@@ -104,10 +113,12 @@ body {
 
 @keyframes text {
   from {
-    left: -150%;
+    transform: translateX(-4rem);
+    opacity: 0;
   }
   to {
-    left: 0;
+    transform: none;
+    opacity: 1;
   }
 }
 

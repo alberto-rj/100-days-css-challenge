@@ -1,0 +1,227 @@
+:root {
+  --clr-primary: #6f23b6;
+  --clr-secondary: rgb(204, 64, 204);
+  --clr-bg: rgb(237, 227, 247);
+  --clr-shadow: rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--clr-bg);
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: var(--clr-primary);
+}
+
+::selection {
+  background: var(--clr-primary);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+.center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  background: linear-gradient(
+    45deg,
+    var(--clr-primary),
+    var(--clr-secondary)
+  );
+  border-radius: 0.25rem;
+  box-shadow: 4px 4px 8px 2px var(--clr-shadow);
+  height: 25rem;
+  width: 25rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 4px 4px 8px 2px var(--clr-shadow);
+  height: 300px;
+  width: 320px;
+}
+
+.card::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.profile {
+  float: left;
+  position: relative;
+  width: 65%;
+}
+
+.profile .avatar,
+.profile .text,
+.profile .button-group {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.profile .avatar {
+  cursor: pointer;
+  top: 2rem;
+  height: 70px;
+  width: 70px;
+}
+
+.profile .circle-1,
+.profile .circle-2 {
+  border: 1px solid;
+  border-color: var(--clr-primary) var(--clr-primary) var(--clr-primary) transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 76px;
+  height: 76px;
+  transition: all 1.5s ease-in-out;
+}
+
+.profile .circle-2 {
+  width: 82px;
+  height: 82px;
+  top: -6px;
+  left: -6px;
+  border-color: var(--clr-primary) transparent var(--clr-primary) var(--clr-primary);
+}
+
+.profile .avatar:hover .circle-1 {
+  transform: rotate(360deg);
+}
+
+.profile .avatar:hover .circle-2 {
+  transform: rotate(-360deg);
+}
+
+.profile .photo {
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+}
+
+.profile .text {
+  top: 7.75rem;
+  text-align: center;
+  width: 80%;
+}
+.profile .text .name,
+.profile .text .title {
+  display: block;
+  width: 100%;
+}
+
+.profile .text .name {
+  display: block;
+  font-weight: 600;
+}
+
+.profile .text .title {
+  display: block;
+  font-size: 11px;
+}
+
+.profile .button-group {
+  top: 12rem;
+  width: 60%;
+}
+
+.profile .button-group a {
+  display: block;
+  border: 1px solid var(--clr-primary);
+  border-radius: 1rem;
+  color: var(--clr-primary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.3125rem 0;
+  text-align: center;
+  width: 100%;
+  transition: 
+    background 0.4s ease,
+    color 0.4s ease;
+}
+
+.profile .button-group a:focus-visible {
+  border: none;
+  outline: 3px solid var(--clr-primary);
+}
+
+.profile .button-group a:hover {
+  background: var(--clr-primary);
+  color: #fff;
+}
+
+.profile .button-group a + a {
+  margin-top: 0.75rem;
+}
+
+.sidebar {
+  float: right;
+  width: 35%;
+  height: 100%;
+}
+
+.sidebar a {
+  background: #dac1f1;
+  color: var(--clr-primary);
+  display: block;
+  height: 33.15%;
+  text-align: center;
+  position: relative;
+  transition: 0.4s ease background;
+}
+
+.sidebar a:first-child {
+  border-radius: 0 0.25rem 0 0;
+}
+
+.sidebar a:last-child {
+  border-radius: 0 0 0.25rem 0;
+}
+
+.sidebar a:hover {
+  background: #cfafee;
+}
+
+.sidebar a:focus-visible {
+  outline: 3px solid var(--clr-primary);
+  outline-offset: -2px;
+}
+
+.sidebar a + a {
+  margin-top: 0.0625rem;
+}
+
+.sidebar a .value,
+.sidebar a .field {
+  display: block;
+}
+
+.sidebar a .value {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sidebar a .field {
+  font-size: 11px;
+}
