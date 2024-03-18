@@ -7,7 +7,7 @@ This is a CSS collection challenges from [100 DAYS CSS](https://100dayscss.com) 
 Those are all my solutions currently:
 
 - [**Day 006 - Profile**](/day-006-profile)
-  - [Codepen](#)
+  - [Codepen](https://codepen.io/albertorauljose/pen/yLrgVWy)
   - [Live site](https://alberto-rj.github.io/100-days-css-challenge/day-006-profile)
 
 - [**Day 005 - Statistic**](/day-005-statistic)
