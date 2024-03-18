@@ -8,7 +8,7 @@ This is a CSS challenge from [100 DAYS CSS](https://100dayscss.com/days/6) websi
 
 You can see the solution of this challenge on:
 
-- [Codepen](#)
+- [Codepen](https://codepen.io/albertorauljose/pen/yLrgVWy)
 - [Live site](https://alberto-rj.github.io/100-days-css-challenge/day-006-profile)
 
 ## See also
